@@ -18,9 +18,11 @@ extension LocalizationManager: ApplicationStateObserverDelegate {
             case .automatic:
                 // Update localizations when we go to foreground and update mode is automatic
                 updateLocalizations()
-
             case .manual:
                 // Don't do anything on manual update mode
+                break
+            case .never:
+                // Same goes for never
                 break
             }
 

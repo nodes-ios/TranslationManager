@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol AcceptLanguageProviderType: class {
+public protocol AcceptLanguageProviderType: AnyObject {
 
     /// Creates the accept language provider.
     ///

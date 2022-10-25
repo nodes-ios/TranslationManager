@@ -9,7 +9,7 @@
 import Foundation
 
 /// A type of class that can observe application state.
-internal protocol ApplicationStateObserverType: class {
+internal protocol ApplicationStateObserverType: AnyObject {
     var delegate: ApplicationStateObserverDelegate? { get set }
     func startObserving()
     func stopObserving()

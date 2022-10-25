@@ -91,15 +91,15 @@
 		B464DB702319CCAE00713265 /* LocalizationManager+ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464DB6C2319CCAE00713265 /* LocalizationManager+ApplicationState.swift */; };
 		B4B6C94F231ECB8B001A8E5C /* DefaultLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6C94E231ECB8B001A8E5C /* DefaultLanguage.swift */; };
 		B4B6C954231ED7B8001A8E5C /* LocalizationManager_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B6C953231ED7B7001A8E5C /* LocalizationManager_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4B6C966231ED7D4001A8E5C /* Localization_da-DK.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C956231ED7D4001A8E5C /* Localization_da-DK.json */; };
-		B4B6C967231ED7D4001A8E5C /* Localization_da-DK.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C956231ED7D4001A8E5C /* Localization_da-DK.json */; };
-		B4B6C968231ED7D4001A8E5C /* Localization_da-DK.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C956231ED7D4001A8E5C /* Localization_da-DK.json */; };
-		B4B6C969231ED7D4001A8E5C /* Localization_fr-FR.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C957231ED7D4001A8E5C /* Localization_fr-FR.json */; };
-		B4B6C96A231ED7D4001A8E5C /* Localization_fr-FR.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C957231ED7D4001A8E5C /* Localization_fr-FR.json */; };
-		B4B6C96B231ED7D4001A8E5C /* Localization_fr-FR.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C957231ED7D4001A8E5C /* Localization_fr-FR.json */; };
-		B4B6C96C231ED7D4001A8E5C /* Localization_en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C958231ED7D4001A8E5C /* Localization_en-GB.json */; };
-		B4B6C96D231ED7D4001A8E5C /* Localization_en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C958231ED7D4001A8E5C /* Localization_en-GB.json */; };
-		B4B6C96E231ED7D4001A8E5C /* Localization_en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C958231ED7D4001A8E5C /* Localization_en-GB.json */; };
+		B4B6C966231ED7D4001A8E5C /* Localizations_da-DK.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C956231ED7D4001A8E5C /* Localizations_da-DK.json */; };
+		B4B6C967231ED7D4001A8E5C /* Localizations_da-DK.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C956231ED7D4001A8E5C /* Localizations_da-DK.json */; };
+		B4B6C968231ED7D4001A8E5C /* Localizations_da-DK.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C956231ED7D4001A8E5C /* Localizations_da-DK.json */; };
+		B4B6C969231ED7D4001A8E5C /* Localizations_fr-FR.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C957231ED7D4001A8E5C /* Localizations_fr-FR.json */; };
+		B4B6C96A231ED7D4001A8E5C /* Localizations_fr-FR.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C957231ED7D4001A8E5C /* Localizations_fr-FR.json */; };
+		B4B6C96B231ED7D4001A8E5C /* Localizations_fr-FR.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C957231ED7D4001A8E5C /* Localizations_fr-FR.json */; };
+		B4B6C96C231ED7D4001A8E5C /* Localizations_en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C958231ED7D4001A8E5C /* Localizations_en-GB.json */; };
+		B4B6C96D231ED7D4001A8E5C /* Localizations_en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C958231ED7D4001A8E5C /* Localizations_en-GB.json */; };
+		B4B6C96E231ED7D4001A8E5C /* Localizations_en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B6C958231ED7D4001A8E5C /* Localizations_en-GB.json */; };
 		B4B6C96F231ED7D4001A8E5C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6C95A231ED7D4001A8E5C /* Localization.swift */; };
 		B4B6C970231ED7D4001A8E5C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6C95A231ED7D4001A8E5C /* Localization.swift */; };
 		B4B6C971231ED7D4001A8E5C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6C95A231ED7D4001A8E5C /* Localization.swift */; };
@@ -193,9 +193,9 @@
 		B490AD7123356F4B00260A17 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
 		B4B6C94E231ECB8B001A8E5C /* DefaultLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLanguage.swift; sourceTree = "<group>"; };
 		B4B6C953231ED7B7001A8E5C /* LocalizationManager_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationManager_iOS.h; sourceTree = "<group>"; };
-		B4B6C956231ED7D4001A8E5C /* Localization_da-DK.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Localization_da-DK.json"; sourceTree = "<group>"; };
-		B4B6C957231ED7D4001A8E5C /* Localization_fr-FR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Localization_fr-FR.json"; sourceTree = "<group>"; };
-		B4B6C958231ED7D4001A8E5C /* Localization_en-GB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Localization_en-GB.json"; sourceTree = "<group>"; };
+		B4B6C956231ED7D4001A8E5C /* Localizations_da-DK.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Localizations_da-DK.json"; sourceTree = "<group>"; };
+		B4B6C957231ED7D4001A8E5C /* Localizations_fr-FR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Localizations_fr-FR.json"; sourceTree = "<group>"; };
+		B4B6C958231ED7D4001A8E5C /* Localizations_en-GB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Localizations_en-GB.json"; sourceTree = "<group>"; };
 		B4B6C95A231ED7D4001A8E5C /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		B4B6C95D231ED7D4001A8E5C /* LocalizationsRepositoryMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationsRepositoryMock.swift; sourceTree = "<group>"; };
 		B4B6C95E231ED7D4001A8E5C /* FileManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerMock.swift; sourceTree = "<group>"; };
@@ -350,9 +350,9 @@
 		B4B6C955231ED7D4001A8E5C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B4B6C956231ED7D4001A8E5C /* Localization_da-DK.json */,
-				B4B6C957231ED7D4001A8E5C /* Localization_fr-FR.json */,
-				B4B6C958231ED7D4001A8E5C /* Localization_en-GB.json */,
+				B4B6C956231ED7D4001A8E5C /* Localizations_da-DK.json */,
+				B4B6C957231ED7D4001A8E5C /* Localizations_fr-FR.json */,
+				B4B6C958231ED7D4001A8E5C /* Localizations_en-GB.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -752,9 +752,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B6C96D231ED7D4001A8E5C /* Localization_en-GB.json in Resources */,
-				B4B6C96A231ED7D4001A8E5C /* Localization_fr-FR.json in Resources */,
-				B4B6C967231ED7D4001A8E5C /* Localization_da-DK.json in Resources */,
+				B4B6C96D231ED7D4001A8E5C /* Localizations_en-GB.json in Resources */,
+				B4B6C96A231ED7D4001A8E5C /* Localizations_fr-FR.json in Resources */,
+				B4B6C967231ED7D4001A8E5C /* Localizations_da-DK.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,9 +776,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B6C96E231ED7D4001A8E5C /* Localization_en-GB.json in Resources */,
-				B4B6C96B231ED7D4001A8E5C /* Localization_fr-FR.json in Resources */,
-				B4B6C968231ED7D4001A8E5C /* Localization_da-DK.json in Resources */,
+				B4B6C96E231ED7D4001A8E5C /* Localizations_en-GB.json in Resources */,
+				B4B6C96B231ED7D4001A8E5C /* Localizations_fr-FR.json in Resources */,
+				B4B6C968231ED7D4001A8E5C /* Localizations_da-DK.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,9 +793,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B6C96C231ED7D4001A8E5C /* Localization_en-GB.json in Resources */,
-				B4B6C969231ED7D4001A8E5C /* Localization_fr-FR.json in Resources */,
-				B4B6C966231ED7D4001A8E5C /* Localization_da-DK.json in Resources */,
+				B4B6C96C231ED7D4001A8E5C /* Localizations_en-GB.json in Resources */,
+				B4B6C969231ED7D4001A8E5C /* Localizations_fr-FR.json in Resources */,
+				B4B6C966231ED7D4001A8E5C /* Localizations_da-DK.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

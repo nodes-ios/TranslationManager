@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol LocalizationManagerDelegate: class {
+public protocol LocalizationManagerDelegate: AnyObject {
     func localizationManager(languageUpdated: LanguageModel?)
 }

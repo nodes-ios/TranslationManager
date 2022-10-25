@@ -159,16 +159,20 @@ class LocalizationManagerTests: XCTestCase {
     func testUpdateLocalizationsFail() {
         let expect = expectation(description: "")
         let config = mockLocalizationConfigWithUpdate
+        let expectedNumberOfNilValues = 2
+        var currentNumberOfNilValuesReceived = 0
         let localizations: [DefaultLocalizationDescriptor] = [config, mockLocalizationConfigWithUpdate, mockLocalizationConfigWithoutUpdate]
+        expect.expectedFulfillmentCount = 3
         repositoryMock.availableLocalizations = localizations
         repositoryMock.localizationsResponse = nil
         manager.updateLocalizations { (error) in
-            XCTAssertNotNil(error)
+            if error != nil {
+                currentNumberOfNilValuesReceived += 1
+            }
+            XCTAssertTrue(currentNumberOfNilValuesReceived <= expectedNumberOfNilValues)
             expect.fulfill()
         }
-        waitForExpectations(timeout: 1.0) { (_) in
-            XCTFail()
-        }
+        wait(for: [expect], timeout: 1.0)
     }
 
     func testUpdateCurrentLanguageWithBestFit() {

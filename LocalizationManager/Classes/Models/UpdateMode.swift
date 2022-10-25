@@ -15,4 +15,5 @@ import Foundation
 public enum UpdateMode {
     case automatic
     case manual
+    case never
 }
